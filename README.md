@@ -29,6 +29,15 @@ A loose problem channels nothing. A precise one channels everything.
 
 ## Install
 
+**Plugin (recommended)** — versioned, one-command updates:
+
+```
+/plugin marketplace add drmarceloclipi-star/define-problem
+/plugin install define-problem
+```
+
+**Cargo (alternative)** — copies the skill into `~/.claude/skills`:
+
 ```bash
 cargo install --git https://github.com/drmarceloclipi-star/define-problem
 define-problem
@@ -65,6 +74,14 @@ Mention any of these in your prompt and the skill activates:
 ---
 
 ## Update
+
+Plugin install:
+
+```
+/plugin update define-problem
+```
+
+Cargo install:
 
 ```bash
 define-problem

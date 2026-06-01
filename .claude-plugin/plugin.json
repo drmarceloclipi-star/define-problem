@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "define-problem",
+  "version": "0.1.0",
+  "description": "Problem-definition lens. Asks questions until the problem is sharply defined, then hunts the web for evidence of good constraints and existing solutions.",
+  "author": {
+    "name": "Marcelo Cavalcanti",
+    "url": "https://github.com/drmarceloclipi-star"
+  },
+  "homepage": "https://github.com/drmarceloclipi-star/define-problem",
+  "repository": "https://github.com/drmarceloclipi-star/define-problem",
+  "license": "MIT",
+  "keywords": ["problem-definition", "constraints", "problem-statement", "framing", "discovery", "requirements"]
+}
