@@ -1,0 +1,11 @@
+[package]
+name = "define-problem"
+version = "0.1.0"
+edition = "2021"
+description = "Installs the define-problem Claude Code skill"
+repository = "https://github.com/drmarceloclipi-star/define-problem"
+license = "MIT"
+
+[[bin]]
+name = "define-problem"
+path = "src/main.rs"
