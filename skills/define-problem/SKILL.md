@@ -1,6 +1,12 @@
 ---
 name: define-problem
-description: Problem-definition lens. Asks questions until the problem is sharply defined, then hunts the web for evidence of good constraints and existing solutions. A well-defined problem is the essential constraint that channels creativity and unlocks great innovation. Use before building, designing, or solving anything. Triggers on: define-problem, what's the problem, frame the problem, problem statement, constraints, before I build.
+description: >-
+  Problem-definition lens. Asks questions until the problem is sharply defined,
+  then hunts the web for evidence of good constraints and existing solutions. A
+  well-defined problem is the essential constraint that channels creativity and
+  unlocks great innovation. Use before building, designing, or solving anything.
+  Triggers on: define-problem, what's the problem, frame the problem, problem
+  statement, constraints, before I build.
 ---
 
 # Define Problem
