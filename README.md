@@ -51,6 +51,25 @@ define-problem
 Re-run `define-problem` anytime to update.
 </details>
 
+<details>
+<summary>Other agents — Codex CLI, Cursor, Zed, Windsurf, Gemini CLI</summary>
+
+The lens ships as portable entrypoint files at the repo root:
+
+| Agent | File | How to use |
+|---|---|---|
+| Codex CLI, Cursor, Zed, Windsurf | `AGENTS.md` | Copy to your project root, or to `~/.codex/AGENTS.md` for every project |
+| Gemini CLI | `GEMINI.md` + `AGENTS.md` | Copy both to your project root, or to `~/.gemini/` |
+
+```bash
+# one-liner: grab both files into your current project
+curl -fsSLO https://raw.githubusercontent.com/drmarceloclipi-star/define-problem/main/AGENTS.md
+curl -fsSLO https://raw.githubusercontent.com/drmarceloclipi-star/define-problem/main/GEMINI.md
+```
+
+Any agent that reads the open [`AGENTS.md`](https://agents.md) standard picks it up automatically — no plugin system required.
+</details>
+
 ---
 
 ## Use it
