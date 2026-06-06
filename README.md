@@ -33,7 +33,7 @@ A loose problem channels nothing. A precise one channels everything.
 
 ```
 /plugin marketplace add drmarceloclipi-star/define-problem
-/plugin install define-problem
+/plugin install define-problem@drmarceloclipi-star
 ```
 
 **Cargo (alternative)** — copies the skill into `~/.claude/skills`:
@@ -78,7 +78,7 @@ Mention any of these in your prompt and the skill activates:
 Plugin install:
 
 ```
-/plugin update define-problem
+/plugin update define-problem@drmarceloclipi-star
 ```
 
 Cargo install:
