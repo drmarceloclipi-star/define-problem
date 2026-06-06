@@ -1,90 +1,90 @@
-<img src="https://github.com/drmarceloclipi-star.png" width="96" align="left" style="margin-right:16px" />
-
-**Dr. Marcelo Cavalcanti**  
-[@drmarceloclipi-star](https://github.com/drmarceloclipi-star)
-
-<br clear="left" />
-
----
-
 # define-problem
 
-**One well-defined problem is the constraint that unlocks great innovation.**
+**Stop solving the wrong problem.**
 
-A [Claude Code](https://claude.ai/code) skill that asks you questions until the problem is sharply defined — then hunts the web, articles, blogs, papers, and repos for evidence of how others framed it and solved it.
+A [Claude Code](https://claude.ai/code) skill that asks you questions until your problem is sharp — then searches the web, papers, and repos for how others framed and solved it.
 
 ---
 
-## The problem
+## What it looks like
 
-You don't have a code problem. You have a problem problem.  
-Most work starts from a vague itch — "build X", "fix Y" — and the solution inherits that vagueness.  
-A loose problem channels nothing. A precise one channels everything.
+```
+You:    /define-problem my app feels slow
 
-## The fix
+Claude: Slow where — load, navigation, or a specific action?
+You:    the dashboard takes forever
 
-`define-problem` refuses to guess. It interrogates until the real problem surfaces, pins the constraints that actually matter, and grounds the definition in evidence from people who already fought this fight.
+Claude: How long, and on what — first load or every visit?
+You:    ~8s every visit, it refetches everything
+
+Claude: So the problem isn't "slow app." It's:
+        "The dashboard refetches all data on every visit,
+         costing 8s even when nothing changed."
+
+        That's cacheable. Here's how 3 teams solved it →
+        [evidence from the wild]
+```
+
+One vague itch → one precise, solvable problem.
 
 ---
 
 ## Install
-
-**Plugin (recommended)** — versioned, one-command updates:
 
 ```
 /plugin marketplace add drmarceloclipi-star/define-problem
 /plugin install define-problem@drmarceloclipi-star
 ```
 
-**Cargo (alternative)** — copies the skill into `~/.claude/skills`:
+Restart Claude Code. Done.
+
+<details>
+<summary>Alternative: install via Cargo</summary>
+
+Copies the skill into `~/.claude/skills`:
 
 ```bash
 cargo install --git https://github.com/drmarceloclipi-star/define-problem
 define-problem
 ```
 
-Restart Claude Code. Done.
+Re-run `define-problem` anytime to update.
+</details>
+
+---
+
+## Use it
+
+Type `/define-problem` — or just mention the problem and let it trigger:
+
+`what's the problem` · `frame the problem` · `problem statement` · `before I build`
+
+It stops only when the problem fits in **one sentence** and you say *"yes, that's exactly it."*
 
 ---
 
 ## How it works
 
-Three lines, run in order:
-
 1. **Ask** — questions until the problem is defined, not assumed.
 2. **Constrain** — a sharp problem statement *is* the constraint that frees creativity.
-3. **Evidence** — search articles, blogs, repos, and papers for how others framed and solved it.
+3. **Evidence** — search articles, blogs, repos, and papers for how others solved it.
 
-Stop only when the problem fits in **one sentence** and you say "yes, that's exactly it."
+> A vague problem produces a thousand mediocre solutions.
+> A precise problem produces one great one.
 
----
-
-## Trigger
-
-Mention any of these in your prompt and the skill activates:
-
-`define-problem` · `what's the problem` · `frame the problem` · `problem statement` · `constraints` · `before I build`
-
----
-
-## The golden rule
-
-> A vague problem produces a thousand mediocre solutions. A precise problem produces one great one.
-
----
-
-## Update
-
-Plugin install:
+<details>
+<summary>Update the plugin</summary>
 
 ```
 /plugin update define-problem@drmarceloclipi-star
 ```
+</details>
 
-Cargo install:
+---
 
-```bash
-define-problem
-```
+<img src="https://github.com/drmarceloclipi-star.png" width="48" align="left" style="margin-right:12px" />
 
-Re-runs the installer. Pulls latest automatically.
+**Dr. Marcelo Cavalcanti** · [@drmarceloclipi-star](https://github.com/drmarceloclipi-star)
+MIT License
+
+<br clear="left" />
