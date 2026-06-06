@@ -32,7 +32,7 @@ One vague itch → one precise, solvable problem.
 ## Install
 
 ```
-/plugin marketplace add drmarceloclipi-star/define-problem
+/plugin marketplace add drmarceloclipi-star/claude-plugins
 /plugin install define-problem@drmarceloclipi-star
 ```
 
