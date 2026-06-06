@@ -2,7 +2,9 @@
 
 **Stop solving the wrong problem.**
 
-A [Claude Code](https://claude.ai/code) skill that asks you questions until your problem is sharp — then searches the web, papers, and repos for how others framed and solved it.
+An agent skill that asks you questions until your problem is sharp — then searches the web, papers, and repos for how others framed and solved it.
+
+Runs in **[Claude Code](https://claude.ai/code)**, **Codex CLI**, **Cursor**, **Zed**, **Windsurf**, and **Gemini CLI** — anything that reads the [`AGENTS.md`](https://agents.md) standard.
 
 ---
 
@@ -31,12 +33,23 @@ One vague itch → one precise, solvable problem.
 
 ## Install
 
+**Claude Code:**
+
 ```
 /plugin marketplace add drmarceloclipi-star/define-problem
 /plugin install define-problem@define-problem
 ```
 
 Restart Claude Code. Done.
+
+**Codex CLI · Cursor · Zed · Windsurf · Gemini CLI:** grab the portable entrypoint files — no plugin system needed:
+
+```bash
+curl -fsSLO https://raw.githubusercontent.com/drmarceloclipi-star/define-problem/main/AGENTS.md
+curl -fsSLO https://raw.githubusercontent.com/drmarceloclipi-star/define-problem/main/GEMINI.md
+```
+
+Drop in your project root, or in `~/.codex/` / `~/.gemini/` to enable it everywhere. Details below.
 
 <details>
 <summary>Alternative: install via Cargo</summary>
