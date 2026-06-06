@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "define-problem",
+  "description": "Problem-definition lens by Marcelo Cavalcanti.",
+  "owner": {
+    "name": "Marcelo Cavalcanti",
+    "url": "https://github.com/drmarceloclipi-star"
+  },
+  "plugins": [
+    {
+      "name": "define-problem",
+      "description": "Problem-definition lens. Asks questions until the problem is sharply defined, then hunts the web for evidence of good constraints and existing solutions.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

@@ -32,8 +32,8 @@ One vague itch → one precise, solvable problem.
 ## Install
 
 ```
-/plugin marketplace add drmarceloclipi-star/claude-plugins
-/plugin install define-problem@drmarceloclipi-star
+/plugin marketplace add drmarceloclipi-star/define-problem
+/plugin install define-problem@define-problem
 ```
 
 Restart Claude Code. Done.
@@ -76,7 +76,7 @@ It stops only when the problem fits in **one sentence** and you say *"yes, that'
 <summary>Update the plugin</summary>
 
 ```
-/plugin update define-problem@drmarceloclipi-star
+/plugin update define-problem@define-problem
 ```
 </details>
 
